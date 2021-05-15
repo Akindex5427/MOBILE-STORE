@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Store</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Glidejs StyleSheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" />
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- Owl-carousel CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start #header -->
+    <header class="header" id="home">
+        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-raleway font-size-13 font-weight-700 text-black-50 m-0">Jordan Calderon 430-985 Eleifend St. Duluth Washington
+                +234-706-660-0199</p>
+            <div class="font-raleway font-size-15">
+                <a href="#" class="px-3 border-right border-left text-dark">Login</a>
+                <a href="#" class="px-3 border-right text-dark">Whishlist (0)</a>
+            </div>
+        </div>
+
+        <!-- Preloader -->
+        <div class="preloader" id="preloader">
+            <div class="loader"></div>
+        </div>
+        
+        <div class="adverts">
+            <span>50% off your first purchase</span>
+        </div>
+
+        <!-- Primary Navigation -->
+        <!-- <nav class="navigation"> -->
+            <!-- <div class="nav-center container">
+                <a href="#header" class="logo">
+                    <h3>VIE<span>NIE</span>NCE</h3>
+                </a>
+         -->
+                <!-- <div class="nav-menu">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h3>VIE<span>NIE</span>NCE</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                <!-- </nav> -->
+                
+                <!-- Secondary Navigation -->
+                <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                    <a class="navbar-brand" href="#home"><h4>VIE<span>NIE</span>NCE</h4></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav m-auto font-rubik">
+                            <li class="nav-item active">
+                                <a class="nav-link scroll-link" href="#home">Home</i></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#recent">On Sale</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#category">Category</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#shop">Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#blog">Blog</a>
+                            </li>
+                            
+                        </ul>
+                        <form action="#" class="font-size-14 font-rale">
+                            <a href="#" class="py-2 rounded-pill color-primary-bg">
+                                <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                                <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                            </a>
+                        </form>
+                    </div>
+                </nav>
+                <!-- !Secondary Navigation -->
+        <!-- !Primary Navigation -->
+
+    </header>
+    <!-- !start #header -->
+
+    <!-- start #main-site -->
+    <main id="main-site">
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="glide glide1" id="glide1">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides glide__hero">
+                        <li class="glide__slide">
+                            <div class="banner">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2021</span>
+                                    <h1>CLOTHING MADE FOR YOU!</h1>
+                                    <h5>Trending from men and women style collection</h5>
+                                    <div class="buttons-group">
+                                        <button>shop women's</button>
+                                        <button>shop men's</button>
+                                    </div>
+                                </div>
+                                <img src="./assets/banner1-removebg-preview (1).png" class="special_01" alt="" />
+                        </li>
+                        <li class="glide__slide">
+                            <div class="banner banner1">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2021</span>
+                                    <h1>CLOTHING MADE FOR YOU!</h1>
+                                    <h5>Trending from men and women style collection</h5>
+                                    <div class="buttons-group">
+                                        <button>shop women's</button>
+                                        <button>shop men's</button>
+                                    </div>
+                                </div>
+                                <img src="./assets/banner2-removebg-preview.png" class="special_02" alt="">
+                            </div>
+                        </li>
+        
+                        <li class="glide__slide">
+                            <div class="banner">
+                                <div class="banner-content">
+                                    <span>New Inspiration 2021</span>
+                                    <h1>CAKE GALLERY!</h1>
+                                    <h5>Trending for all occasion</h5>
+                                    <div class="buttons-groupy">
+                                        <button>Cakes' Store</button>
+                                        
+                                    </div>
+                                </div>
+                                <img src="./assets/cheese-cake2-removebg-preview.png" class="special_03" alt="">
+                            </div>
+                        </li>
+        
+                    </ul>
+                </div>
+        
+                <!-- Arrows -->
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i
+                            class="fas fa-arrow-left"></i></button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+        
+        <!-- Category -->
+            <section class="section category" id="category">
+                <h5 class="title">Allow your style to match your passion</h5>
+                <div class="category-center container">
+                    <div class="category-box">
+                        <img src="./assets/WFFW3.jpg" alt="">
+                        <div class="content">
+                            <h4>Women Fashion</h4>
+                            <span><h6>30 Products</h6></span>
+                            <a href="#"><h6>Explore more</h6></a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-box">
+                        <img src="./assets/gallery 2.jpg" alt="">
+                        <div class="content">
+                            <h4>Women Fashion</h4>
+                            <span><h6>50 Products</h6></span>
+                            <a href="#"><h6>Explore more</h6></a>
+                        </div>
+                    </div>
+
+                    <div class="category-box">
+                        <img src="./assets/UNISEX_AF_FAB01.jpg" alt="">
+                        <div class="content">
+                            <h4>Unisex Fashion</h4>
+                            <span><h6>45 Products</h6></span>
+                            <a href="#"><h6>Explore more</h6></a>
+                        </div>
+                    </div>
+
+                    <div class="category-box">
+                        <img src="./assets/devils-food-cake.jpg" alt="">
+                        <div class="content">
+                            <h4>Cake Hub</h4>
+                            <span><h6>30 Products</h6></span>
+                            <a href="#"><h6>Explore more</h6></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Filtered Products -->
+            <section class="section sort-category">
+              <div class="title-container">
+                  <div class="section-titles">
+                      <div class="section-title active filter-btn" data-id="trend">
+                          <span class="dot"></span>
+                          <h1 class="primary-title">Trending Products</h1>
+                      </div>
+                  </div>
+
+                   <div class="section-titles">
+                      <div class="section-title filter-btn" data-id="special">
+                        <span class="dots"></span>
+                          <h1 class="primary-title">Special Products</h1>
+                      </div>
+                  </div>
+
+                <div class="section-titles">
+                    <div class="section-title filter-btn" data-id="featured">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Featured Products</h1>
+                    </div>
+                </div>
+              </div>
+
+            <div class="product-center container">
+                <div class="product">
+                    <div class="product-header">
+                        <img src="assets/WFBAG50.jpg" alt="product">
+                    </div>
+                    <div class="product-footer">
+                        <h5>Women Fashion Bag</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <h6>$18999.99</h6>
+                        </div>
+                      </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sync"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product">
+                    <div class="product-header">
+                        <img src="assets/raspberry-pink-velvet-cake.jpg" class='small' alt="product">
+                    </div>
+                    <div class="product-footer">
+                        <h5>Cakes</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <h6>$24999.99</h6>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sync"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product">
+                    <div class="product-header">
+                        <img src="assets/UNISEX_AF_FAB01.jpg" class='small' alt="product">
+                    </div>
+                    <div class="product-footer">
+                        <h5>Unisex African Fabrics</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <h6>$9999.99</h6>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sync"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product">
+                    <div class="product-header">
+                        <img src="assets/WFBAG1.jpg" class='small' alt="product">
+                    </div>
+                    <div class="product-footer">
+                        <h5>Women Fashion Bag</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="product-price">
+                            <h6>$13999.99</h6>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-sync"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+
+            <!-- Gallery -->
+            <section class="gallery container">
+                <figure class="gallery-item item-1">
+                    <img src="./assets/grid_1.jpg" alt="" class="gallery-img">
+                    <div class="content">
+                        <h3>Popular Demand</h3>
+                        <a href="#">View more</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery-item item-2">
+                    <img src="./assets/grid_011.jpg" alt="" class="gallery-img">
+                    <div class="content">
+                        <h3>Cake gallery</h3>
+                        <a href="#">View more</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery-item item-3">
+                    <img src="./assets/grid_13.jpg" alt="" class="gallery-img">
+                    <div class="content">
+                        <h3>High Heels</h3>
+                        <a href="#">View more</a>
+                    </div>
+                </figure>
+
+                <figure class="gallery-item item-4">
+                    <img src="./assets/UNISEX_FAB8.jpg" alt="" class="gallery-img">
+                    <div class="content">
+                        <h3>Up to 30% OFF Summer Sale</h3>
+                        <a href="#">View more</a>
+                    </div>
+                </figure>
+            </section>
+            <!-- End Gallery -->
+        <!-- End Category -->
+
+        <!-- All Products -->
+        <section class="sectional" id="shop">
+            <div class="titles-container">
+                <div class="sectional-titles">
+                    <div class="sectional-titless active filter-btn">
+                        <span class="dots"></span>
+                        <h1 class="primary-titless">All Products</h1>
+                    </div>
+                 </div>
+              </div>
+
+              <div class="shop-center product-center container">
+
+            </div>
+        </section>
+
+        <section class="section brands container">
+            <div class="glide" id="glide2">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <img src="./assets/adidas_PNG22.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/nike_PNG13.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/PngItem_4884139.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/puma-logo-picture.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/mercedes_PNG80187.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/PngItem_1900647.png" alt="">
+                        </li>
+                        <li class="glide__slide">
+                            <img src="./assets/PngItem_5190711.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End All Products -->
+
+        <!-- Latest Products -->
+        <section class="section latest-products" id="new">
+        <div class="title-container">
+            <div class="section-titles">
+                <div class="section-title active filter-btn" data-id="latest">
+                    <span class="dot"></span>
+                    <h1 class="primary-title">Latest Products</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="latest-center product-center container">
+
+        </div>
+        </section>
+        <!-- End Latest Products -->
+
+        <!-- Blog -->
+        <section class="section blog" id="blog">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Latest News</h1>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="blog-container container">
+                <div class="glide" id="glide3">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="blog-card">
+                                    <div class="card-header">
+                                        <img src="./assets/grid_11.jpg" alt="">
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3>Cakes for all occassion: Birthday, Weddings etc </h3>
+                                        <span>By Admin</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quidem.</p>
+                                        <a href="#"><button>Read More</button></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="blog-card">
+                                    <div class="card-header">
+                                        <img src="./assets/grid_12.jpg" alt="">
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3>Styling black gown After A Cool Day</h3>
+                                        <span>By Admin</span>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, asperiores.</p>
+                                        <a href="#"><button>Read More</button></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="blog-card">
+                                    <div class="card-header">
+                                        <img src="./assets/grid_2.jpg" alt="">
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3>Hangout with friends in short gown and heels</h3>
+                                        <span>By Admin</span>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, unde.</p>
+                                        <a href="#"><button>Read More</button></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="blog-card">
+                                    <div class="card-header">
+                                        <img src="./assets/grid_4.jpg" alt="">
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3>Styling armless and sun glasses</h3>
+                                        <span>By Admin</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, et.</p>
+                                        <a href="#"><button>Read More</button></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="glide__slide">
+                                <div class="blog-card">
+                                    <div class="card-header">
+                                        <img src="./assets/UNISEX_FAB11.jpg" alt="">
+                                    </div>
+                                    <div class="card-footer">
+                                        <h3>Styling African Attire</h3>
+                                        <span>By Admin</span>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, tenetur?</p>
+                                        <a href="#"><button>Read More</button></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Blog -->
+
+        <!-- Recent Products -->
+        <section class="section recent-products" id="recent">
+            <div class="title-container">
+                <div class="section-titles">
+                    <div class="section-title active filter-btn" data-id="latest">
+                        <span class="dot"></span>
+                        <h1 class="primary-title">Recent View</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-center product-center container">
+                
+            </div>
+        </section>
+
+        <!-- End Recent Products -->
+
+        <!-- Facility -->
+        <section class="facility section" id="facility">
+            <div class="facility-container container">
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <p>FREE SHIPPING WORLD WIDE</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <p>100% MONEY BACK GUARENTEE</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                    <p>LOTS OF PAYMENT GATEWAYS</p>
+                </div>
+
+                <div class="facility-box">
+                    <div class="facility-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <p>24/7 ONLINE SUPPORT</p>
+                </div>
+            </div>
+        </section>
+        <!-- End Facility -->
+
+        <!-- PopUp -->
+        <div class="popup">
+            <div class="popup-content">
+                <div class="popup-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="popup-left">
+                    <div class="popup-img">
+                        <img src="./assets/grid_3 - Copy.png" alt="">
+                    </div>
+                </div>
+
+                <div class="popup-right">
+                    <div class="right-content">
+                        <h2>Get Discount <span>30%</span> Off</h2>
+                        <p>Sign up to our blogletter and get 30% off your next purchase. No scam, we promise!</p>
+
+                        <form action="#" class="form">
+                            <input type="email" placeholder="Enter your email..." class="popup-input">
+                            <a href="#">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End PopUp -->
+        </main>
+        <!-- !start #main-site -->
+
+        <!-- Footer -->
+        <footer id="footer" class="section footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-center">
+                        <h4>EXTRAS</h4>
+                        <a href="#">Brands</a>
+                        <a href="#">Gift Certificates</a>
+                        <a href="#">Affiliates</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Site Map</a>
+                    </div>
+        
+                    <div class="footer-center">
+                        <h4>INFORMATION</h4>
+                        <a href="#">About</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Site Map</a>
+                    </div>
+        
+                    <div class="footer-center">
+                        <h4>MY ACCOUNT</h4>
+                        <a href="#">My Account</a>
+                        <a href="#">Order History</a>
+                        <a href="#">Wish List</a>
+                        <a href="#">blogletter</a>
+                        <a href="#">Returns</a>
+                    </div>
+                    <div class="footer-center">
+                        <h4>CONTACT US</h4>
+                        <div>
+                            <span>
+                                <i class="fas fa-map-marker-alt"></i>
+                            </span>
+                            Jordan Calderon 430-985 Eleifend St. Duluth Washington, USA
+                        </div>
+                        <div>
+                            <span>
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            akindex5427@gmail.com
+                        </div>
+                        <div>
+                            <span>
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            +234-706-660-0199
+                        </div>
+                        <div>
+                            <span>
+                                <i class="far fa-paper-plane"></i>
+                            </span>
+                            Washington DC, USA
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+        
+        <div class="copyright text-center bg-dark text-white py-2">
+            <p class="font-rale font-size-14">&copy; Copyrights 2021. Desinged By <a href="#" class="color-second">Physayo</a>
+            </p>
+            <!-- End Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous"></script>
+
+    <!-- Glidejs Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+ 
+
+    <!-- Custom Javascript -->
+    <script src="./jjs/index.js"></script>
+    <script src="./jjs/slider.js"></script>
+    <script src="./jjs/product.js"></script>
+</body>
+
+</html>

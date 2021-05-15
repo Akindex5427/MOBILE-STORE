@@ -1,0 +1,370 @@
+{
+    "products": [
+     {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW1.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW2.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "199.99",
+            "image": "./assets/WCFW3.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW4.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW5.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW6.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "249.99",
+            "image": "./assets/WCFW7.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "299.99",
+            "image": "./assets/WCFW8.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Women Casual Footwear",
+            "price": "200.99",
+            "image": "./assets/WCFW9.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "149.99",
+            "image": "./assets/WFBAG.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "13999.99",
+            "image": "./assets/WFBAG1.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "15999.99",
+            "image": "./assets/WFBAG2.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "149.99",
+            "image": "./assets/WFBAG3.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "200.99",
+            "image": "./assets/WFBAG4.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "179.99",
+            "image": "./assets/WFBAG6.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "320.99",
+            "image": "./assets/WFBAG7.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "200.99",
+            "image": "./assets/WFBAG8.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "299.99",
+            "image": "./assets/WFBAG9.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "159.99",
+            "image": "./assets/WFBAG10.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "199.99",
+            "image": "./assets/WFBAG11.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "139.99",
+            "image": "./assets/WFBAG14.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "149.99",
+            "image": "./assets/WFBAG15.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "1199.99",
+            "image": "./assets/WFBAG16.jpg",
+            "category": "featured"
+    },
+     {
+            "title": "Women Fashion Bag",
+            "price": "199.99",
+            "image": "./assets/WFBAG005.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "189.99",
+            "image": "./assets/WFBAG001.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "249.99",
+            "image": "./assets/WFBAG004.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "189.99",
+            "image": "./assets/WFBAG002.jpg",
+            "category": "featured"
+    },
+     {
+            "title": "Women Fashion Bag",
+            "price": "199.99",
+            "image": "./assets/WFBAG50.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "189.99",
+            "image": "./assets/WFBAG55.png",
+            "category": "recent"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "199.99",
+            "image": "./assets/WFBAG60.png",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "299.99",
+            "image": "./assets/WFBAG22.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Bag",
+            "price": "169.99",
+            "image": "./assets/WFBAG18.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "250.99",
+            "image": "./assets/WFFW1.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "230.99",
+            "image": "./assets/WFFW2.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "210.99",
+            "image": "./assets/WFFW3.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "260.99",
+            "image": "./assets/WFFW4.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "219.99",
+            "image": "./assets/WFFW5.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "249.99",
+            "image": "./assets/WFFW6.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "299.99",
+            "image": "./assets/WFFW7.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "300.00",
+            "image": "./assets/WFFW8.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Women Fashion Footwear",
+            "price": "99.99",
+            "image": "./assets/WFFW10.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Unisex African Fabrics",
+            "price": "129.99",
+            "image": "./assets/UNISEX_AF_FAB01.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Unisex African Fabrics",
+            "price": "179.99",
+            "image": "./assets/UNISEX_AF_FAB2.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Unisex African Fabrics",
+            "price": "119.99",
+            "image": "./assets/UNISEX_AF_FAB3.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Unisex African Fabrics",
+            "price": "139.99",
+            "image": "./assets/UNISEX_AF_FAB4.jpg",
+            "category": "recent"
+    },  
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "159.99",
+            "image": "./assets/UNISEX_FAB2.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "199.99",
+            "image": "./assets/UNISEX_FAB3.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "179.99",
+            "image": "./assets/UNISEX_FAB4.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "119.99",
+            "image": "./assets/UNISEX_FAB5.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "149.99",
+            "image": "./assets/UNISEX_FAB6.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "189.99",
+            "image": "./assets/UNISEX_FAB7.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "159.99",
+            "image": "./assets/UNISEX_FAB8.jpg",
+            "category": "special"
+    },
+    {
+            "title": "Unisex Foreign Fabrics",
+            "price": "18999.99",
+            "image": "./assets/UNISEX_FAB9.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Cakes",
+            "price": "250.99",
+            "image": "./assets/cheese-cake.jpg",
+            "category": "trend"
+    },
+    {
+            "title": "Cakes",
+            "price": "240.99",
+            "image": "./assets/cheese-cake2.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Cakes",
+            "price": "280.99",
+            "image": "./assets/cheese-cake3.jpg",
+            "category": "featured"
+    },
+    {
+            "title": "Cakes",
+            "price": "159.99",
+            "image": "./assets/chocolate-matcha-swirl-pound-cake.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Cakes",
+            "price": "239.99",
+            "image": "./assets/david-holifield.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Cakes",
+            "price": "199.99",
+            "image": "./assets/devils-food-cake.jpg",
+            "category": "latest"
+    },
+    {
+            "title": "Cakes",
+            "price": "209.99",
+            "image": "./assets/raspberry-pink-velvet-cake.jpg",
+            "category": "recent"
+    },
+    {
+            "title": "Cakes",
+            "price": "99.99",
+            "image": "./assets/sponge-cake.jpg",
+            "category": "latest"
+    }   
+  ]
+}
